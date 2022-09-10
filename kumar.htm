@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lado</title>
+    <title>Form</title>
 </head>
 <body>
-    <h1 align="center">lado</h1>
+    <h2 align="Center">Project management</h2>
+    <table cellpadding="10" cellspacing="2" align="center">
+        <th>Project name</th>
+        <tr>
+            <td>
+                <input type="text" placeholder="project name">
+            </td>
+        </tr>
+        <th>Assigned to</th>
+        <tr>
+            <td>Assigned to:</td>
+            <td>
+                <select name="person">
+                    <option value="kumar gauatam">kumar gautam</option>
+                    <option value="khem gauatam">khem gautam</option>
+                    <option value="hima gauatam">hima gautam</option>
+                    <option value="poja gauatam">poja gautam</option>
+                </select>
+            </td>
+        </tr>
+        <th>Start date</th>
+        <tr>
+            <td>Start date</td>
+            <td><input type="date"></td>
+        </tr>
+        <th>End date</th>
+        <tr>
+            <td>End date</td>
+            <td><input type="date"></td>
+        </tr>
+        <th>Priority</th>
+        <tr>
+        <td>
+            <input type="radio" name="priority" value="High">High
+            <input type="radio" name="priority" value="Average">Average
+            <input type="radio" name="priority" value="Low">Low
+        </td>
+        </tr>
+        <th>Gender</th>
+        <tr>
+            <td>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+                <input type="radio" name="Gender" value="Other">Other
+                 </td>
+        </tr>
+
+        
+        <th>Description</th>
+        <tr>
+            <td>Description</td>
+            <td><textarea name="Description" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr aria-colspan="2" align="center"></tr>
+        <td>
+            <button type="reset" class="submit">submit</button>
+        </td>
+    </table>
 </body>
 </html>
