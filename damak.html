@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .topnav {
+            background-color: blue;
+            font-size: 25px;
+            overflow: hidden;
+
+            text-align: center;
+        }
+
+        .damak {
+            font-style: italic;
+            color: red;
+            text-align: center;
+        }
+
+        .topnav a {
+            color: black;
+            float: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            color: brown;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .image {
+            padding: 30px;
+            float: left;
+            align-items: center;
+        }
+
+        .paragraph {
+            display: flex;
+            flex-direction: column;
+            size: 30%;
+            align-items: center;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="damak">
+        <h1>Damak Multiple Campus
+
+        </h1>
+    </div>
+    <div class="topnav">
+        <a href="1damak.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About us</a>
+        <a href="#">Announcement</a>
+
+    </div>
+    <div class="image">
+
+        <img
+            src="data:image/jpeg;base64,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">
+    </div>
+    <div class="paragraph">
+        <p class="paragraph">Damak Multiple Campus is a community-based campus located to the eastern region of Nepal.
+            It is one of the leading community campuses in Nepal, situated in Jhapa district, Damak municipality ward
+            no. 09, about 200 meters south to East-west lok highway. Initially DMC was basically the educational centre
+            for the local people. However, at present , its catchment area is extended to the eastern part of Jhapa,
+            Ilam, Panchthar, Taplejung , Terthum , Bhojpur, Dhankuta and neighboring VDCs of Morang district.
+
+        </p>
+    </div>
+</body>
+
+</html>
