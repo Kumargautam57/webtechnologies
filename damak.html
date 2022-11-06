@@ -55,15 +55,37 @@
             padding-top: 20px;
             color: brown;
         }
-        .footer{
-            text-align:center;
-            padding-top:200px;
-            padding-bottom:50px;
-            color: gold;
-        }
+        .column {
+  float: left;
+  width: 33.33%;
+  color: aqua;
+  background-color:teal;
+  align-items: flex-start;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav{
+     background-color: #04AA6D;
+     padding: top 20px;
+     padding-bottom: 50px;
+     padding: auto;
+     color: red;
+     text-align: center;
+     
+     
+
+
+}  
+.map{
+    align-items: center;
+}    
     </style>
 </head>
-<body background="https://damakcampus.edu.np/content/uploads/sliderImages/a.jpg">
+<body bgcolor="grey">
     
     <div class="damak">
         <h1>Damak Multiple Campus
@@ -72,7 +94,7 @@
     </div>
     <div class="topnav">
         <a href="1damak.html">Home</a>
-        <a href="#">Contact</a>
+        <a href="#">Courses</a>
         <a href="#">About us</a>
         <a href="#">Announcement</a>
         <a href="#">Articles</a>
@@ -88,19 +110,51 @@
             It is one of the leading community campuses in Nepal, situated in Jhapa district, Damak municipality ward
             no. 09, about 200 meters south to East-west lok highway. Initially DMC was basically the educational centre
             for the local people. However, at present , its catchment area is extended to the eastern part of Jhapa,
-            Ilam, Panchthar, Taplejung , Terthum , Bhojpur, Dhankuta and neighboring VDCs of Morang district.
+            Ilam, Panchthar, Taplejung , Terthum , Bhojpur, Dhankuta and neighboring VDCs of Morang district.DMC was established in 2038 B.S. with the great endeavor and contribution of educationists, social activities, politicians and local community to attain easy access for academic education in the local areas. In the beginning year, it commenced Management program in proficiency certificate level. Later, as per the need and importance, the campus extended various programs up to Master Degree level.
+
+            Campus General Assembly is the supreme legislative as well as executive body of the campus. It is responsible for formation, implementation and supervision of the budget. It provides executive power to campus management committee to run the campus. There is separate’ Lekha Samiti’ for the supervision of Account system.
             
 
         </p>
     </div>
+    <footer>
+    <div class="nav"><h1>More inforamtion</h1></div>
     
-    <footer class="footer">
-        <p> Damak Multiple Campus</p>
-        <li>Contact Number:023-540354</li>
-        <li>Fax Number:023-540267</li>
-        <li>Email:info@damakcampus.edu.np</li>
+   
+    <div class="row">
+        <div class="column"> Contact Us <ul>
+            <li>Damak-9,Jhapa</li>
+            <li>023-580132 / 580528</li>
+            <li>9817218121</li>
+            <li>info@damakcampus.edu.np </li>
+            <li><a>Facebook</a></li>
+        </ul></div>
+        <div class="column">Useful links
+           <ol> <a href="1damak.html">Home</a></ol>
+           <ol>
+           <a href="#" >Join</a></ol>
+           <ol>
+            <a href="#">Why DMC</a>
+           </ol>
+        </div>
+        
+        
+        <div class="column">Feature Of DMC<ul>
+            <li>Quality of Education</li>
+            <li>Afordable Fees</li>
+            <li>Comfortable and Peace Environment</li>
+            <li>Highly Trained Teacher</li>
+            <li>QAA certified Campus</li>
+        </ul>
+            
+        </div>
+      </div>
 
-    </footer>
+      </footer>
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14262.738824443239!2d87.6858544!3d26.6585757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x116ac5ec99c5b042!2sDamak%20Multiple%20Campus!5e0!3m2!1sen!2snp!4v1667744890493!5m2!1sen!2snp" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    
 </body>
 
 </html>
